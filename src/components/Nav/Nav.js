@@ -58,10 +58,12 @@ const Nav = () => {
                     </BurguerButton>
                 </ContainerNav>
             </WrapNav>
-            <div style={ {marginBottom: '20px'} }></div>
+            <div style={ { marginBottom: '20px', display: 'none' } }>
             <PrimaryButton>OBTENER SPOTIFY FREE</PrimaryButton>
             <SecondaryButton color="black">Cámbiate a plan Premium</SecondaryButton>
             <SecondaryButton color="white">Regístrate gratis</SecondaryButton>
+            </div>
+            
         </header>
     )
 }
