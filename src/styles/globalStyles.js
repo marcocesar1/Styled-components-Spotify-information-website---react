@@ -8,6 +8,9 @@ const GlobalStyles = createGlobalStyle`
         --white : #FFFFFF;
         --grey : #d7d7d7;
     }
+    .plans{
+        background-color: var(--white);
+    }
 `;
 
 export default GlobalStyles;

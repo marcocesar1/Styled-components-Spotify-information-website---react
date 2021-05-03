@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 import { PrimaryButton, SecondaryButton } from '../Layout/LayoutStyles';
-import { WrapNav, ContainerNav, LogoNav, LinkLogo, Logo, LinksWrap, List, ListItem, Link, BurguerButton, SpanButton } from './NavStyles';
+import { WrapNav, ContainerNav, LogoNav, LinkLogo, Logo, LinksWrap, List, ListItem, Link, BurguerButton } from './NavStyles';
 
 const Nav = () => {
 
@@ -52,9 +52,9 @@ const Nav = () => {
                         </nav>
                     </LinksWrap>
                     <BurguerButton onClick={ openResponsiveMenu }>
-                        <SpanButton/>
-                        <SpanButton separated />
-                        <SpanButton separated />
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </BurguerButton>
                 </ContainerNav>
             </WrapNav>

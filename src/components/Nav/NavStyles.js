@@ -126,23 +126,25 @@ export const BurguerButton = styled.button`
     @media ${sizes.desktop}{
         display: none;
     }
-`;
-
-export const SpanButton = styled.span`
-    background-color: currentColor;
-    border-radius: 1px;
-    -webkit-transform-origin: 21px;
-    -moz-transform-origin: 21px;
-    transform-origin: 21px;
-    -webkit-transition: -webkit-transform .2s;
-    display: block;
-    height: 3px;
-    width: 22px;
-    transition: -webkit-transform .2s;
-    -webkit-transition: -webkit-transform .2s;
-    -moz-transition: transform .2s,-moz-transform .2s;
-    transition: transform .2s;
-    transition: transform .2s,-webkit-transform .2s,-moz-transform .2s;
-    transition: transform .2s,-webkit-transform .2s;
-    ${(props) => props.separated ? 'margin-top: 4px;' : '' }    
+    span:first-child{
+        margin-top: 0px !important;
+    }
+    span{
+        background-color: currentColor;
+        border-radius: 1px;
+        -webkit-transform-origin: 21px;
+        -moz-transform-origin: 21px;
+        transform-origin: 21px;
+        -webkit-transition: -webkit-transform .2s;
+        display: block;
+        height: 3px;
+        width: 22px;
+        transition: -webkit-transform .2s;
+        -webkit-transition: -webkit-transform .2s;
+        -moz-transition: transform .2s,-moz-transform .2s;
+        transition: transform .2s;
+        transition: transform .2s,-webkit-transform .2s,-moz-transform .2s;
+        transition: transform .2s,-webkit-transform .2s;
+        margin-top: 4px;
+    }
 `;

@@ -70,7 +70,9 @@ export const PrimaryButton = styled(Button)`
 export const SecondaryButton = styled(Button)`
     ${ ({color}) => colorSecundaryButton(color) }
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
 `;
 
 export const Container = styled.div`    
